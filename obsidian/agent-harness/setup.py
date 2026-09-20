@@ -12,9 +12,11 @@ with open("cli_anything/obsidian/README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="cli-anything-obsidian",
-    version="1.1.0",
+    version="1.1.1",
     author="Doruk Ozgen",
     author_email="",
+    license="Apache-2.0",
+    license_files=["LICENSE"],
     description="CLI harness for Obsidian — Knowledge management and note-taking via Obsidian Local REST API. Recommended: Obsidian with Local REST API plugin enabled",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -24,7 +26,6 @@ setup(
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "Topic :: Software Development :: Libraries :: Python Modules",
-        "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
