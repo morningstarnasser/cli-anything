@@ -194,4 +194,4 @@ python -m pytest cli_anything/obsidian/tests/ -v                     # All tests
 
 ## Version
 
-1.0.0
+1.1.1
